@@ -11,7 +11,7 @@ except Exception as e:
 
 # --- ABRA A WEBCAM ---
 # Tente alterar o índice se 0 não funcionar. Comuns são 0, 1, ou -1.
-camera_index = 0
+camera_index = 1
 cap = cv2.VideoCapture(camera_index)
 
 # VERIFICAÇÃO 1: A câmera foi aberta com sucesso?
